@@ -2,7 +2,7 @@
 const servicableObtainableMarket, currentAnnualizedRevenue, currentCustomers, averageRevenuePerCustomer, totalObtainableRevenue, profitMargin, obtainableGrossProfit, obtainableEbitda, obtainableValuation, investmentNeed, minimumInvestorReturn, investorOwnership, preMoneyValuation;
 
 //STEP 2 - Writing Function
-const calcValuation = function(){
+const calcValuation = function(currentAnnualizedRevenue, currentCustomers, servicableObtainableMarket, profitMargin, investmentNeed){
   averageRevenuePerCustomer = currentAnnualizedRevenue / currentCustomers;
   totalObtainableRevenue =
   servicableObtainableMarket * averageRevenuePerCustomer;
